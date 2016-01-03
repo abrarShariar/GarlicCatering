@@ -1,0 +1,35 @@
+<?php
+class Slider extends CI_Controller {
+
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model('slider_model');
+		$this->load->library('image_lib');
+	}
+	public function index(){
+		$error = array('error' => $this->upload->display_errors());
+		$data['slider_data'] = $this->slider_model->read_data();
+		$this->load->view('slider', $error);
+		$this->load->view('success/slider', $data);
+	}	
+	public function do_upload(){
+		$config['upload_path']          = './images/';
+		$config['allowed_types']        = 'gif|jpg|png|JPG|jpeg|JPEG';
+		$config['max_size']             = 200;
+		// $config['max_width']            = 1024;
+		// $config['max_height']           = 768;
+		$this->upload->initialize($config);
+		$this->load->library('upload', $config);
+		if (! $this->upload->do_upload())
+		{
+			$error = array('error' => $this->upload->display_errors());
+			$this->load->view('slider', $error);
+		}else{
+			$data = array('slider_data' => $this->upload->data());
+			$this->slider_model->insert_data();
+			redirect('/slider');
+		}
+	}
+}
+?>
