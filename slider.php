@@ -1,3 +1,6 @@
+/*
+This file containes the code for the infinite scroll slider displayed at the top of the webpage
+*/
 <?php
 $servername = "localhost";
 $username = "root";
