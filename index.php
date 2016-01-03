@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
+$servername = "localhost";	
 $username = "root";
-$password = "";
-$dbname="garlic";
+$password = "";			//insert your password here
+$dbname="garlic";		//insert your database name here
 // Create connection
 $conn = mysqli_connect($servername, $username, $password,$dbname);
 // RECENT
