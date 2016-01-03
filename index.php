@@ -1,3 +1,14 @@
+/*
+A catering business website with a intuitive admin panel
+Built on Bootstrap 3 with Codeigniter (v.3) framework
+Date of release: 2015
+
+Author: Abrar Shariar
+Email: shariarabrar@gmail.com
+*/
+
+
+
 <?php
 $servername = "localhost";	
 $username = "root";
