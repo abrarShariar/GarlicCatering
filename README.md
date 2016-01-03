@@ -1,5 +1,6 @@
-# GarlicCatering
+# [GarlicCatering](http://abrarshariar.github.io/GarlicCatering/)
 A catering business website with an easy-to-use admin panel
+Project maintained [here](http://abrarshariar.github.io/GarlicCatering/)
 
 *Technologies used:*
 
