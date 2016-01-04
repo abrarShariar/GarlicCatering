@@ -65,7 +65,7 @@ Besides MySQL database has been used.The admin panel is a privileged section res
 
 The admin panel heavily depends on the Codeigniter framework . The URLs are genarated in the Codeigniter way.
 
-**Run from Localhost: ** localhost/GarlicCatering/admin/login
+**Run from Localhost:** localhost/GarlicCatering/admin/login
 
 *Username: garlic*
 
