@@ -38,7 +38,7 @@ and an infinite scroll slider/carousel. Both of them are easily customizable. Th
 
 -[Fint Us](https://github.com/abrarShariar/GarlicCatering/blob/master/index.php)
 
-**Run from Localhost:** localhost/GarlicCaetring/index.php
+**Run from Localhost:** localhost/GarlicCatering/index.php
 
 *You are free to use the GarlicCatering layout for your next business website template*
 
